@@ -89,14 +89,8 @@
     filter: hue-rotate(135deg)
 }
 
-/* #button-design li {
-    display: inline-block;
-  } */
-
   div.button-design{
     list-style: none;
-    /* align-items: flex-end; */
-    /* align-content: center; */
   }
 
   html,
@@ -117,12 +111,8 @@ body {
 .header,
 .footer {
   flex: 0 1 auto;
-  
-  background-color: #fcc;
 }
 
 .body {
   flex: 1 1 auto;
-  
-  background-color: #cfc;
 }
