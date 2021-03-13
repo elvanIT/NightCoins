@@ -1,3 +1,4 @@
+/* Синяя кнопка */
 #button-design .b-blue,
 #button-design .b-blue:before {
     background: #0576ff;
@@ -30,7 +31,7 @@
 
 
 
-
+/* Красная кнопка */
 #button-design .b-red,
 #button-design .b-red:before {
     background: #ea6e48;
@@ -60,7 +61,7 @@
 }
 
 
-
+/* Ораньжевая кнопка */
 #button-design .b-orange,
 #button-design .b-orange:before {
     background: #ffc107;
@@ -89,11 +90,12 @@
     filter: hue-rotate(135deg)
 }
 
-  div.button-design{
+/* В один ряд кнопки */
+div.Panel {
     list-style: none;
-  }
+}
 
-  html,
+/* html,
 body {
   height: 100%;
   margin: 0;
@@ -115,4 +117,15 @@ body {
 
 .body {
   flex: 1 1 auto;
-}
+} */
+/* Выравнивание по середине */
+#button-design {
+    height: 10em;
+    position: relative }
+#button-design {
+    margin: 0;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
